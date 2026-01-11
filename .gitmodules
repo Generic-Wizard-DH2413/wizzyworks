@@ -1,0 +1,12 @@
+[submodule "wizzyworks-frontend"]
+	path = wizzyworks-frontend
+	url = https://github.com/Generic-Wizard-DH2413/wizzyworks-frontend
+[submodule "wizzyworks-server"]
+	path = wizzyworks-server
+	url = git@github.com:Generic-Wizard-DH2413/wizzyworks-server.git
+[submodule "wizzyworks-bridge"]
+	path = wizzyworks-bridge
+	url = git@github.com:Generic-Wizard-DH2413/wizzyworks-bridge.git
+[submodule "wizzyworks-graphics"]
+	path = wizzyworks-graphics
+	url = git@github.com:Generic-Wizard-DH2413/wizzyworks-graphics.git
