@@ -19,12 +19,49 @@ WizzyWorks consists of four interconnected modules:
 
 ### Modules
 
-1. **[wizzyworks-frontend](./wizzyworks-frontend)** - React web app for mobile phones where users design fireworks
-2. **[wizzyworks-server](./wizzyworks-server)** - WebSocket server that relays messages between components
-3. **[wizzyworks-bridge](./wizzyworks-bridge)** - Python bridge that detects ArUco markers and generates firework data
-4. **[wizzyworks-graphics](./wizzyworks-graphics)** - Godot engine visualization that renders the fireworks
+1. **[wizzyworks-frontend](https://github.com/Generic-Wizard-DH2413/wizzyworks-frontend)** - React web app for mobile phones where users design fireworks
+2. **[wizzyworks-server](https://github.com/Generic-Wizard-DH2413/wizzyworks-server)** - WebSocket server that relays messages between components
+3. **[wizzyworks-bridge](https://github.com/Generic-Wizard-DH2413/wizzyworks-bridge)** - Python bridge that detects ArUco markers and generates firework data
+4. **[wizzyworks-graphics](https://github.com/Generic-Wizard-DH2413/wizzyworks-graphics)** - Godot engine visualization that renders the fireworks
 
-## Quick Start
+## Getting Started
+
+### Clone the Repository
+
+This project uses Git submodules to manage the four interconnected modules. You can clone the project in two ways:
+
+#### Option 1: Clone with Submodules (Recommended)
+
+Clone the main repository with all submodules in one command:
+
+```bash
+git clone --recurse-submodules https://github.com/Generic-Wizard-DH2413/wizzyworks.git
+cd wizzyworks
+```
+
+If you've already cloned without submodules, initialize them:
+
+```bash
+git clone https://github.com/Generic-Wizard-DH2413/wizzyworks.git
+cd wizzyworks
+git submodule update --init --recursive
+```
+
+#### Option 2: Clone Modules Manually
+
+Alternatively, clone each module separately:
+
+```bash
+# Create project directory
+mkdir wizzyworks
+cd wizzyworks
+
+# Clone each module
+git clone https://github.com/Generic-Wizard-DH2413/wizzyworks-frontend.git
+git clone https://github.com/Generic-Wizard-DH2413/wizzyworks-server.git
+git clone https://github.com/Generic-Wizard-DH2413/wizzyworks-bridge.git
+git clone https://github.com/Generic-Wizard-DH2413/wizzyworks-graphics.git
+```
 
 ### Prerequisites
 
