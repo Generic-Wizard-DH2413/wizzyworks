@@ -93,7 +93,7 @@ Server will run on:
 - WebSocket: `ws://localhost:8765`
 - Health check: `http://localhost:8000/health`
 
-See [wizzyworks-server/README.md](./wizzyworks-server/README.md) for details.
+See [wizzyworks-server/README.md](https://github.com/Generic-Wizard-DH2413/wizzyworks-server/blob/main/README.md) for details.
 
 #### 2. Graphics (Firework Visualization)
 
@@ -106,7 +106,7 @@ cd wizzyworks-graphics/godot-visuals
 3. Open `scenes/testing_environment.tscn`
 4. Press F5 to run
 
-See [wizzyworks-graphics/README.md](./wizzyworks-graphics/README.md) for controls and details.
+See [wizzyworks-graphics/README.md](https://github.com/Generic-Wizard-DH2413/wizzyworks-graphics/blob/main/README.md) for controls and details.
 
 #### 3. Bridge (ArUco Marker Detection)
 
@@ -123,7 +123,7 @@ cp .env.example .env
 python main.py
 ```
 
-See [wizzyworks-bridge/README.md](./wizzyworks-bridge/README.md) for configuration options.
+See [wizzyworks-bridge/README.md](https://github.com/Generic-Wizard-DH2413/wizzyworks-bridge/blob/main/README.md) for configuration options.
 
 #### 4. Frontend (Mobile Web App)
 
@@ -137,7 +137,7 @@ npm run dev -- --host
 # Access from mobile at http://<YOUR_IP>:5173
 ```
 
-See [wizzyworks-frontend/README.md](./wizzyworks-frontend/README.md) for deployment options.
+See [wizzyworks-frontend/README.md](https://github.com/Generic-Wizard-DH2413/wizzyworks-frontend/blob/main/README.md) for deployment options.
 
 ## Development Workflow
 
@@ -165,10 +165,10 @@ Each module can be tested independently:
 
 For detailed setup, configuration, and development information for each module, please refer to their respective README files:
 
-- [Server Documentation](./wizzyworks-server/README.md)
-- [Graphics Documentation](./wizzyworks-graphics/README.md)
-- [Bridge Documentation](./wizzyworks-bridge/README.md)
-- [Frontend Documentation](./wizzyworks-frontend/README.md)
+- [Server Documentation](https://github.com/Generic-Wizard-DH2413/wizzyworks-server/blob/main/README.md)
+- [Graphics Documentation](https://github.com/Generic-Wizard-DH2413/wizzyworks-graphics/blob/main/README.md)
+- [Bridge Documentation](https://github.com/Generic-Wizard-DH2413/wizzyworks-bridge/blob/main/README.md)
+- [Frontend Documentation](https://github.com/Generic-Wizard-DH2413/wizzyworks-frontend/blob/main/README.md)
 
 ## Troubleshooting
 
